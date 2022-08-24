@@ -7,4 +7,4 @@ title: Тестовая дока на AsciiDoc
 #    dty: 'tech writer'
 nav:
   - modules/nav.adoc
-# start_page: first-test:hello-world.adoc
+start_page: first-test:hello-world.adoc
