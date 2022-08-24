@@ -1,5 +1,5 @@
 name: component1
-# version: 1.0
+version: '1.0'
 title: Тестовая дока на AsciiDoc
 # AsciiDoc:
 #  attributes:
