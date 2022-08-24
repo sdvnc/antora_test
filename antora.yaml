@@ -1,0 +1,10 @@
+name: component1
+version: 1.0
+title: Тестовая дока на AsciiDoc
+AsciiDoc:
+  attributes:
+    nm: 'Егор Абраменко'
+    dty: 'tech writer'
+nav:
+  - modules/first-test/nav.adoc
+start_page: first-test:hello-world.adoc

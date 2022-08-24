@@ -1,0 +1,6 @@
+// пример файла для создания навигационного меню
+
+Навигация
+
+* xref:hello-world.adoc[]
+* xref:convert-from-html.adoc[]

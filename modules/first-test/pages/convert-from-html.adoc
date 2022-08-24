@@ -1,0 +1,1021 @@
+= Account Information - User Guide for Americor CRM
+:lang: en
+
+https://americor.biz/[ image:baggage/logo-white.png[Americor CRM] ]
+
+Choose product document...
+
+Americor Learning Center +
+[.document_title]#User Guide for Americor CRM#
+
+link:settlement_offers.html[] link:managing_creditor_records.html[]
+
+link:[]
+
+image:./baggage/home.png[image] > link:/docs/[User Guide for Americor
+CRM] > link:./deals.html[Enrollments] >
+link:./managing_enrollments.html[Managing Enrollments] >
+link:./creditors.html[Creditors] >
+link:./managing_creditor_records.html[Managing Records] > Account
+Information
+
+== Account Information
+
+The Acct. Information tab shows summary information about the creditor
+as the following tables describe.
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|Field |Description
+|Account Holder a|
+Owner of the debt. Can be:
+
+* Applicant
+
+An owner of the debt is the applicant himself.
+
+* Co-Applicant
+
+An owner shares his debts with the co-applicant, for example, a spouse.
+
+* Joint
+
+|Role a|
+Client role. Can be:
+
+* Individual
+* Business
+
+|Cardholder Name |The name of the cardholder.
+
+|Debt Type |Debt type.
+
+|Status |Current creditor status. For more information, see
+link:creditor_statuses.html[Creditor Statuses].
+
+|Form 1099-C Received |Toggle to specify whether the Form 1099-C is
+received if the Forgiven by Creditor status is selected in the Status
+drop-down list.
+
+|Remove Debt Reason a|
+Reason of debt removal.
+
+Available only if the Status is set to Removed from Program.
+
+Values in this drop-down list are taken from the
+link:remove_debt_reasons.html[Remove Debt Reasons] table.
+
+|Initiated By a|
+Name of the person who initiate removal.
+
+Available only if the Status is set to Removed from Program.
+
+|Approved By a|
+Name of the person who approved removal.
+
+Available only if the Status is set to Removed from Program.
+
+|Additional Notes a|
+Additional notes.
+
+Available only if the Status is set to Removed from Program.
+
+|Priority |Priority.
+
+|Settlement Cushion % |Available only if the Status is set to Loan -
+Placement Wait.
+
+|Disposition |Additional status that extends the Status field. For more
+information, see link:disposition_statuses.html[Disposition Statuses].
+
+|Settlement Letter Reminders |Toggle that is shown if the disposition
+status is set to Settlement Letter Sent to Client.
+
+|Sum. Admin Disposition |Additional disposition status that is set for
+creditors that have issued summons. For more information, see
+link:sum_admin_dispositions.html[Sum. Admin Disposition Statuses].
+
+|Negotiator |Name of the negotiator responsible for settling the debt.
+
+|Summons Admin |Name of the negotiator who works with creditors that
+have issued summons.
+
+|SIF Retrieval Admin |Name of the negotiator who has settled the debt.
+
+|POA |Toggle that shows whether the Power Of Attorney document was
+uploaded. This document gives Americor the ability to communicate with
+creditors on behalf of the client.
+
+|Last Pay |Date of the last payment to the creditor prior to signing an
+enrollment agreement.
+
+|Past Due |Number of days since the last payment was made.
+
+|Eligibility (Days) | 
+
+|Eligibility (Days Past) | 
+
+|Cycle Date | 
+
+|Charge Off Date |Date when the client was charged off (if any).
+
+|Settlement Letter Due |Date when the settlement letter must be sent to
+the creditor.
+
+|Settlement Letter Received |Date when the settlement letter was
+received from the creditor.
+
+|Settlement Balance |Settlement balance.
+
+|Settlement Amount |Settled amount that must be paid to the creditor.
+
+|Settlement Payment Date |Date when the settled amount must be paid to
+the creditor.
+|===
+
+In the Original Creditor section, you can view information about the
+initial creditor.
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|Field |Description
+|Creditor |Name of the original creditor.
+
+|[#dan]####Account # a|
+Account number of the creditor.
+
+NOTE: Creditors must have a unique account number within a
+link:creditor_groups.html[creditor group]. That is, if you already have
+a creditor in a creditor group and this creditor has, for instance, the
+account number 33211123356, then you are not allowed to add a new
+creditor with the same account number to this group. In such a scenario,
+an error message will appear in the top-right corner upon saving the
+creditor profile, telling you that a creditor with the same account
+number already exists. Such a validation is intended to check duplicates
+within one creditor group only; creditors from different groups can have
+duplicate account numbers. This rule, however, is ineffective when the
+current link:users.html[user] has the Deals/Loans - Creditors - Add
+Duplicate Account Number permission which allows saving duplicates.
+
+|Original Balance |Initial debt amount at the moment of signing an
+enrollment agreement.
+
+|Current Balance |Current amount that has to be paid considering
+payments that have not been made as of its due date.
+|===
+
+In the Current Creditor section, you can view information about the
+current creditor. Such a creditor might appear, for example, if the
+original creditor has sold the client debt to other parties.
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|Field |Description
+|Creditor |Name of the current creditor.
+
+|Account # a|
+Account number of the creditor.
+
+NOTE: Creditors must have a unique account number within the same
+link:creditor_groups.html[creditor group]. That is, if you already have
+a creditor in the creditor group and this creditor has, for instance,
+the account number 33211123356, then you are not allowed to add a new
+creditor with the same account number. In such a scenario, an error
+message will appear in the top-right corner upon saving the creditor
+profile, telling you that a creditor with the same account number
+already exists. Such a validation is intended to check duplicates within
+one creditor group only; creditors from different groups can have
+duplicate account numbers. This rule, however, is ineffective when the
+current link:users.html[user] has the Deals/Loans - Creditors - Add
+Duplicate Account Number permission which allows saving duplicates.
+
+|Current Balance |Current amount that has to be paid considering
+payments that have not been made as of its due date.
+|===
+
+In the Override Address section, you can view information about the new
+creditor address.
+
+link:images/deals_9.png[image:images/deals_9.png[Account
+Information,width=903,height=509]] 
+
+Related Topics
+
+link:creating_task.html[Creating Task]
+
+mailto:timur.dzakhov@americor.com&subject=Account%20Information:%20/docs/account_information.html&body=Dear%20Documentation%20Team,[Send
+feedback] | Updated on 12/22/2021
+
+link:introduction.html[Introduction to Americor]
+
+link:overview.html[CRM Overview]
+
+* link:glossary.html[Glossary]
+
+link:log_in.html[Logging In]
+
+link:search.html[Search]
+
+link:mailer_code.html[Mailer Code]
+
+link:learning_center.html[Learning Center]
+
+link:dashboard.html[Dashboard]
+
+link:call_center.html[Call Center]
+
+link:reports.html[Reports]
+
+link:sales_reports.html[Sales Reports]
+
+* link:sales_metrics.html[Sales Metrics]
+* link:revenue_metrics.html[Revenue Metrics]
+* link:retention.html[Retention]
+* link:projected_fees_report.html[Projected Fees Report]
+* link:cancellation_report.html[Cancellation Report]
+* link:cancellation_table_report.html[Cancellation Table Report]
+* link:pending_cancellation_report.html[Pending Cancellation Report]
+* link:cancellation_up_to_date_report.html[Cancellation Up To Date
+Report]
+* link:opener_report.html[Opener Report]
+* link:rejected_leads_report.html[Rejected Leads Report]
+* link:pipeline_manager_report.html[Pipeline Manager Report]
+* link:client_budget.html[Client Budget]
+* link:kpi-report.html[KPI Report]
+* link:account_receivables.html[Account Receivables]
+* link:monevo_sendings.html[Monevo Sendings]
+
+link:worklists.html[Worklists]
+
+link:regular_creditors.html[Regular Creditors]
+
+* link:opening_worklist_regular_creditors.html[Opening Creditor
+Worklists]
+
+link:chase.html[Chase]
+
+link:syncrony.html[Syncrony]
+
+link:credit_union.html[Credit Union]
+
+link:legal_negotiators.html[Legal Negotiators]
+
+link:summons_negotiators.html[Summons Negotiators]
+
+link:summons_admin.html[Summons Admin]
+
+link:client_relations.html[Client Relations]
+
+* link:cr_opening_worklist.html[Opening Review for Completion Worklist]
+
+link:pending_cancellation_worklist.html[Pending Cancellation]
+
+* link:opening_cancellation_worklist.html[Opening Pending Cancellation
+Worklist]
+
+link:defaulted_negotiators.html[Defaulted Negotiators]
+
+link:ne2020_negotiators.html[NE2020 Negotiators]
+
+link:final_debt_negotiators.html[Final Debt Negotiators]
+
+* link:ocw_final_debt.html[Opening Creditor Worklists]
+
+link:pending_satisfaction.html[Pending Satisfaction]
+
+* link:ps_opening_worklist.html[Opening Pending Satisfaction Worklist]
+
+link:review_for_completion_worklist.html[Review for Completion]
+
+* link:opening_completion_worklist.html[Opening Review for Completion
+Worklist]
+
+link:move_to_complete.html[Move To Complete]
+
+link:loc_processors.html[LOC Processors]
+
+* link:opening_worklist_loc.html[Opening LOC Processing Worklist]
+
+link:underwriting.html[Underwriting]
+
+link:negotiators_pre_funded.html[Negotiators Pre-Funded]
+
+* link:np_opening_worklist.html[Opening Negotiators Pre-Funded Worklist]
+
+link:juniors.html[Juniors]
+
+* link:opening_worklist_jr.html[Opening POA Fax Worklist]
+
+link:creditor_worklists.html[Creditor Worklists]
+
+link:pipeline_check_report.html[Pipeline Check Report]
+
+link:reports_payments.html[Payments]
+
+* link:ram_hold.html[RAM Hold]
+* link:ram_deal_upload_errs.html[RAM Deal Upload Errs]
+* link:gcd_deal_upload_errs.html[GCS Deal Upload Errs]
+* link:overdue_drafts.html[Overdue Drafts]
+* link:overdue_creditor_payments.html[Overdue Creditor Payments]
+* link:overdue_advances_recoups.html[Overdue Advances & Recoups]
+* link:overdue_attorney_payments.html[Overdue Attorney Payments]
+* link:duplicate_drafts.html[Duplicate Drafts]
+* link:drafts_ram_upload_errors.html[Drafts RAM Upload Errors]
+* link:ram_creditor_payments_errs.html[RAM Creditor Payments Errs]
+* link:gcs_creditor_payments_errs.html[GCS Creditor Payments Errs]
+* link:ram_settlement_fees_errs.html[RAM Settlement Fees Errs]
+* link:collections.html[Collections]
+* link:gcs_settlement_fees_errs.html[GCS Settlement Fees Errs]
+* link:gcs_transactions_from_americor.html[GCS Transactions From
+Americor]
+* link:advances_and_recoups_errs.html[Advances And Recoups Errs]
+* link:attorney_payments_errs.html[Attorney Payments Errs]
+* link:ftc_reditor_not_paid.html[Fee taken, Creditor not paid]
+* link:cancelled_ram_gcs.html[Cancelled in RAM/GCS (not in CRM)]
+* link:negative_simulation.html[Negative Simulation]
+* link:pd_difference.html[Plan vs Drafts Difference]
+* link:crs_not_ci.html[Creditor Payments Sent, Not Cleared]
+* link:pbp_creditor_payments.html[Pay By Phone Creditor Payments]
+* link:settlement_fees_check.html[Settlement Fees Check]
+* link:recoups_due_to_americor.html[Recoups Due to Americor]
+* link:pt_override.html[Pay to Override]
+* link:short_clients.html[Short Clients]
+* link:auto_drafts_added.html[Auto Drafts Added]
+* link:payment_changes_report.html[Payment Changes Report]
+* link:payment_changes_rep_new.html[Payment Changes Report V2]
+* link:gcs_loans_not_closed.html[GCS Loans Accounts not closed]
+
+link:reports_loan.html[Loan]
+
+* link:loan_funding_report.html[Loan Funding Report]
+* link:ram_loan_upload_errsok.html[RAM Loan Upload Errs]
+* link:overdue_loan_drafts.html[Overdue Loan Drafts]
+* link:loan_drafts_errs.html[Loan Drafts Errs]
+* link:loan_nsf_reportok.html[Loan NSF Report]
+* link:pds_loan.html[Loans: Possible Defaulted Settlement]
+* link:xpc_loan.html[Loans: Extra Payments to Creditors]
+* link:completed_loan.html[Completed Loan]
+* link:rbl_loan.html[Loans: RAM Balance Leftover]
+* link:fnc_loan.html[Loans: Fees Not Cleared]
+* link:shc_loan.html[Loans: Settlement Fees Check]
+* link:qualify_report.html[Qualify report]
+* link:credit9_ins.html[Transfers to Credit9 - insufficient Funds3]
+* link:loan_defaulted_report.html[Loan Defaulted Report]
+* link:loan_charge_off_report.html[Loan Charge Off Report]
+* link:recovery_payment_report.html[Recovery Payments Report]
+
+link:other_reports.html[Other Reports]
+
+* link:file_status_report.html[File Status Report]
+* link:nsf_report.html[NSF Report]
+* link:creditors_by_state.html[Creditors by State]
+* link:accepted_unaccepted_offers.html[Accepted/Unaccepted Offers]
+* link:negative_ram_report.html[Negative RAM Report]
+* link:creditor_groups_default.html[Creditor Groups Detailed]
+* link:creditor_groups_report.html[Creditor Groups]
+* link:creditor_groups_report_conflict_creditors.html[Creditor Groups
+Conflict Creditors]
+* link:creditor_groups_faxes.html[Creditor Groups Faxes]
+* link:poa_atc_document_status.html[POA/ATC Document Status]
+* link:poa_monitoring.html[POA Monitoring]
+* link:transactions.html[Transactions]
+* link:tasks_report.html[Tasks]
+* link:clients_performance_report.html[Clients Performance Report]
+* link:plaid_report.html[Plaid Report]
+* link:creditor_account_numbers_from_clients.html[Creditor Account
+Numbers from Clients]
+* link:credit_reports_daily_statistic.html[Credit Reports Daily
+Statistics]
+
+link:negotiations.html[Negotiations]
+
+link:settlement_payment_report.html[Settlement Payment Report]
+
+link:settlements_per_date.html[Settlements per date]
+
+link:settlement_list.html[Settlement List]
+
+link:settlement_letters.html[Settlement Letters]
+
+link:debt_exception_report.html[Debt Exception Report]
+
+link:new_assigned_clients_report.html[New Assigned Clients Report]
+
+link:new_assigned_table.html[New Assigned Table]
+
+link:available_settlements_report.html[Available Settlements Report]
+
+* link:detail_available_settlement_report.html[Detail Available
+Settlements Report]
+
+link:creditor_data.html[Creditor Data]
+
+link:new_scrublist_automation.html[Scrublist Automation]
+
+* link:viewing_sumulation_results.html[Viewing Sumulation Results]
+* link:uploading_scrublist.html[Uploading Scrublist]
+* link:scv_str.html[CSV File Structure]
+* link:simulation_stages.html[Simulation Stages]
+
+link:uncleared_settlements_report.html[Uncleared Settlements Report]
+
+link:commission_numbers.html[Commission Numbers]
+
+link:aettlement_qc.html[Settlement QC]
+
+link:current_creditor_report.html[Current Creditor Report]
+
+link:removed_debts.html[Removed Debts]
+
+link:disposition_report.html[Disposition]
+
+link:accounting.html[Accounting]
+
+* link:accounting_revenue_in_time.html[Accounting Revenue in Time]
+* link:advances_outstanding.html[Advances Outstanding]
+* link:advances_recoups_refunds.html[Advances / Recoups / Refunds]
+* link:debt_settlement_report.html[Debt Settlement]
+* link:debt_settlement_cancelled.html[Debt Settlement Cancelled]
+* link:debt_settlement_fee_payback.html[Debt Settlement Fee Payback]
+* link:loan_funded_report.html[Loan Funded Report]
+* link:loan_payback.html[Loan Payback]
+* link:loan_volume.html[Loan Volume]
+
+link:enrollments.html[Enrollments]
+
+* link:enrollments_report.html[Enrollments Report]
+* link:client_saving_escrow_report.html[Client Saving\Escrow Report]
+* link:scrub_report_creditors.html[Scrub Report Creditors]
+* link:ccrub_report_clients.html[Scrub Report Clients]
+* link:first_payment_report.html[First Payment Report]
+* link:draft_nsf.html[Drafts - NSF %]
+* link:completed_clients.html[Completed Clients]
+* link:automate_outreach.html[Automate Outreach]
+
+link:data_entry.html[Data Entry]
+
+* link:socuments_uploaded.html[Documents Uploaded]
+* link:duplicate_accounts_report.html[Duplicate Accounts Report]
+
+link:tasks.html[Tasks]
+
+* link:setting_task_done.html[Setting Task as Done]
+* link:moving_to_inbox.html[Moving to Inbox]
+* link:snoozing_task.html[Snoozing Task]
+* link:reassigning_task.html[Reassigning Task]
+
+link:data.html[Data]
+
+* link:uploading_data.html[Uploading Data]
+* link:remailing_clients.html[Remailing Clients]
+
+link:leads.html[Leads]
+
+link:viewing_leads.html[Viewing Leads]
+
+link:managing_leads.html[Managing Leads]
+
+link:leads_history.html[History]
+
+link:leads_profile.html[Profile]
+
+link:leads_creditors.html[Creditors]
+
+* link:adding_creditors.html[Adding Creditors]
+* link:editing_creditors.html[Editing Creditors]
+
+link:leads_income.html[Income]
+
+link:leads_budget.html[Budget]
+
+link:leads_calculator.html[Calculator]
+
+link:leads_ach.html[ACH]
+
+link:leads_documents.html[Documents]
+
+link:leads_tasks.html[Tasks]
+
+link:leads_logs.html[Logs]
+
+link:leads_filter_search.html[Filtering and Searching Records]
+
+link:adding_leads.html[Adding Leads]
+
+link:assigning_to_me.html[Assigning to Me]
+
+link:sending_to_choice.html[Sending to Choice]
+
+link:rejecting_lead.html[Rejecting Leads]
+
+link:sending_docs.html[Sending Docs]
+
+link:reassigning_leads.html[Reassigning Leads]
+
+link:leads_status.html[Statuses]
+
+link:leads_summary_information.html[Summary Information]
+
+link:deals.html[Enrollments]
+
+link:cease_to_communicate_letter.html[Cease to Communicate Letter]
+
+link:understanding_settlement.html[Understanding Settlement]
+
+link:viewing_enrollments.html[Viewing Enrollments]
+
+link:managing_enrollments.html[Managing Enrollments]
+
+link:deals_history.html[History]
+
+link:creditors.html[Creditors]
+
+link:viewing_creditors.html[Viewing Creditors]
+
+* link:viewing_full_creditor_list.html[Viewing Full Creditor List]
+* link:simulating_offers_for_all_creditors.html[Simulating Offers for
+All Creditors]
+* link:exporting_creditors.html[Exporting Creditors]
+* link:including_excluding_creditors.html[Including/Excluding Creditors]
+* link:adding_new_creditors.html[Adding New Creditors]
+
+link:managing_creditor_records.html[Managing Records]
+
+link:account_information.html[Account Information]
+
+link:settlement_offers.html[Settlement Offers]
+
+link:creating_new_offer.html[Creating New Offer]
+
+* link:offer_simulation.html[Payment Schedule Simulation]
+
+link:editing_and_removing_offers.html[Editing and Removing Offers]
+
+link:notes.html[Notes]
+
+link:deal_sms.html[SMS]
+
+link:deal_email.html[Email]
+
+link:deal_documents.html[Documents]
+
+link:deal_legal.html[Legal]
+
+link:deal_tasks.html[Tasks]
+
+link:deal_payments.html[Payments]
+
+* link:creditor_payments_offer.html[Creditor Payments]
+* link:settlement_fees_offer.html[Settlement Fees]
+* link:advances_recoups_offer.html[Advances & Recoups]
+
+link:ram_gcs_payments.html[RAM/GCS Payments]
+
+link:deposits.html[Deposits]
+
+* link:adding_drafts.html[Adding Drafts]
+* link:editing_records.html[Editing Draft Records]
+* link:configuring_notifications.html[Configuring Notifications]
+
+link:creditor_payments.html[Creditor Payments]
+
+* link:adding_payments.html[Adding Payments]
+* link:editing_payment_records.html[Editing Payment Records]
+
+link:settlement_fees.html[Settlement Fees]
+
+* link:adding_fees.html[Adding Fees]
+* link:editing_payment_records_deals.html[Editing Payment Records]
+* link:refunding_settlemnt_fees.html[Refunding Settlement Fees]
+
+link:account_schedule.html[Account Schedule]
+
+* link:editing_as_records.html[Editing Records]
+
+link:advances_recoups.html[Advances & Recoups]
+
+* link:ar_adding_new_records.html[Adding New Records]
+* link:ar_editing_records.html[Editing Records]
+
+link:ram_transactions.html[RAM/GCS Transactions]
+
+link:attorney_payment.html[Attorney Payment]
+
+link:ledger.html[RAM/GCS Ledger]
+
+link:plan.html[Plan]
+
+link:loan_plan.html[Loan Plan]
+
+link:profile.html[Profile]
+
+link:deals_income.html[Income]
+
+* link:deals_uploading_docs.html[Uploading Documents]
+* link:deals_completing_income.html[Completing Record]
+
+link:budget.html[Budget]
+
+link:strategy.html[Strategy]
+
+link:ach.html[ACH]
+
+link:documents.html[Documents]
+
+link:deal_sub_tasks.html[Tasks]
+
+link:logs.html[Logs]
+
+link:deals_filter_search.html[Filtering and Searching Records]
+
+link:reassigning_deals.html[Reassigning Deals]
+
+link:exporting_records.html[Exporting Records]
+
+link:deal_statuses.html[Statuses]
+
+link:summary_information.html[Summary Information]
+
+link:loans.html[Loans]
+
+link:flow_of_giving_loans.html[Flow of Giving Loans]
+
+link:viewing_loans.html[Viewing Loans]
+
+link:managing_loans.html[Managing Loans]
+
+link:loans_history.html[History]
+
+link:loan_payments.html[Payments]
+
+link:loan_drafts.html[Loan Drafts]
+
+* link:loan_drafts_adding_drafts.html[Adding Drafts]
+* link:loan_drafts_charging_off.html[Charging Off]
+* link:loan_drafts_editing.html[Editing Draft Records]
+* link:loan_drafts_configuring_notifications.html[Configuring
+Notifications]
+
+link:loan_drafts_comm.html[Drafts]
+
+link:loan_payments_recovery.html[Recovery]
+
+link:loan_creditor_payments.html[Creditors Payments]
+
+link:loan_settlement_fees.html[Settlements Fees]
+
+link:loan_account_schedule.html[Account Schedule]
+
+link:loan_andvances_recoups.html[Advances & Recoups]
+
+link:loan_gcs_transformation.html[RAM/GCS Transactions]
+
+link:loan_attorney_payment.html[Attorney Payments]
+
+link:loan_gcs_ledger.html[RAM/GCS Ledger]
+
+link:loan_creditors.html[Creditors]
+
+link:loans_loan_plan.html[Loan Plan]
+
+* link:overriding_loan_plan.html[Overriding Loan Plan]
+* link:changing_due_date.html[Changing Due Date]
+
+link:loan_profile.html[Profile]
+
+link:loan_income.html[Income]
+
+* link:loan_uploading_docs.html[Uploading Documents]
+* link:loan_completing_income.html[Completing Record]
+* link:viewing_income_history.html[Viewing Income History]
+
+link:loan_budget.html[Budget]
+
+link:loan_ach.html[ACH]
+
+link:loan_documents.html[Documents]
+
+link:loans_sub_task.html[Tasks]
+
+link:loans_logs.html[Logs]
+
+link:loans_filter_search.html[Filtering and Searching Records]
+
+link:loans_statuses.html[Statuses]
+
+link:loans_reassign.html[Reassigning Loans]
+
+link:loan_summary_information.html[Summary Information]
+
+link:my_worklist.html[My Worklist]
+
+link:my_worklist_creditors.html[Creditors]
+
+link:my_worklist_ps.html[Pending Satisfaction]
+
+link:my_worklist_fc.html[Review For Completion]
+
+link:my_worklist_summons.html[Summons]
+
+link:my_worklist_cr.html[Client Relations]
+
+link:my_worklist_pc.html[Pending Cancellation]
+
+link:my_worklist_ppp.html[Pre-Processing Pool]
+
+link:my_worklist_lp.html[LOC Processing]
+
+link:my_worklist_upf.html[Underwriting Pre-Funded]
+
+link:my_worklist_u.html[Underwriting]
+
+* link:underwriting_actions.html[Underwriting Actions]
+
+link:my_worklist_npf.html[Negotiators Pre-Funded]
+
+link:my_worklist_approve_poa_atc.html[Approve ATC/POA]
+
+* link:viewing_deals_documents.html[Viewing Deals Documents]
+
+link:my_worklist_dd.html[Different Document]
+
+link:my_worklist_poa_fax.html[POA Fax]
+
+link:my_worklist_poa_document.html[POA Document]
+
+link:my_worklist_rud.html[Review Uploaded Docs]
+
+link:my_worklist_rudl.html[Review Uploaded Docs Legal]
+
+link:commission.html[Commission]
+
+link:sales_rep.html[Sales Reps & Sales Reps Idaho]
+
+* link:adding_records_sales_reps.html[Adding New Records]
+
+link:negotiators.html[Negotiators]
+
+link:team_leads.html[Team Leads & Openers]
+
+link:communications.html[Communications]
+
+link:calls.html[Calls]
+
+link:voicemails.html[Voicemails]
+
+link:calls_ytel.html[Calls Ytel]
+
+link:call_center_comm.html[Call Center]
+
+link:sms_comm.html[SMS]
+
+link:auto_sms.html[Auto SMS]
+
+link:sms_delivery_statistics.html[Sms Delivery Statistics]
+
+* link:delivery_details.html[Delivery Details]
+
+link:sms_consent_report.html[SMS Consent report]
+
+link:emails.html[Emails]
+
+link:creditor_emails.html[Creditor Emails]
+
+link:mass_emails.html[Mass Emails]
+
+link:comm_mass_sms.html[Mass SMS]
+
+link:auto_emails.html[Auto Emails]
+
+link:faxes.html[Faxes]
+
+link:physical_mail.html[Physical Mail]
+
+link:push_notifications.html[Push Notifications]
+
+link:reviews.html[Reviews]
+
+link:actions.html[Actions]
+
+* link:adding_note.html[Adding Note]
+* link:making_call.html[Making Call]
+* link:sending_sms.html[Sending SMS]
+* link:sending_email.html[Sending Email]
+* link:creating_task.html[Creating Task]
+* link:getting_fico_report.html[Getting FICO Report]
+* link:pausing.html[Pause/Resume]
+* link:pre_made_emails.html[Pre-Made Emails]
+* link:sms_consent.html[SMS Consent]
+
+link:configuration.html[Configuration]
+
+link:configuraton_profile.html[Profile]
+
+link:email_setup.html[Email Setup]
+
+* link:adding_corporate_email.html[Adding Corporate Email]
+
+link:users.html[Users]
+
+* link:adding_users.html[Adding Users]
+
+link:teams.html[Teams]
+
+* link:adding_teams.html[Adding Teams]
+
+link:roles.html[Roles]
+
+* link:categories.html[Categories]
+* link:permissions.html[Permissions]
+* link:adding_roles.html[Adding Roles]
+* link:endabling_disabling_permissions.html[Enabling\Disabling
+Permissions]
+
+link:departments.html[Departments]
+
+* link:adding_departments.html[Adding Departments]
+
+link:e_docs.html[E-Docs]
+
+link:system_messages.html[System Messages]
+
+link:credit_report_setup.html[Credit Report Setup]
+
+link:negotiator_setup.html[Negotiator Setup]
+
+link:negotiations_worklists.html[Negotiations Worklists]
+
+* link:adding_worklist.html[Adding Worklist]
+
+link:loan_settings.html[Loan Settings]
+
+link:call_disposition.html[Call Disposition]
+
+* link:adding_dispositions.html[Adding Dispositions]
+
+link:mass_email.html[Mass Email]
+
+* link:adding_mass_email.html[Adding Mass Email]
+
+link:mass_sms.html[Mass SMS]
+
+* link:adding_mass_sms.html[Adding Mass SMS]
+
+link:attorney_network.html[Attorney Network]
+
+* link:adding_attorney_network.html[Adding Attorney Network]
+
+link:faq.html[FAQ]
+
+* link:adding_faqs.html[Adding FAQs]
+* link:exporting_faqs.html[Exporting FAQs]
+
+link:holidays.html[Holidays]
+
+link:document_types.html[Document Types]
+
+link:print_client_labels.html[Print Client Labels]
+
+link:salesrep_management.html[SalesRep Management]
+
+link:customer_support_management.html[Customer Support Management]
+
+link:remove_debt_reasons.html[Remove Debt Reasons]
+
+link:digium.html[CRM Call Redirector]
+
+link:hiw.html[How Routing is Performed]
+
+* link:digium_api.html[Digium API]
+
+link:custom_routing.html[Custom Routing]
+
+* link:creating_mapping.html[Adding Custom Route]
+
+link:queues.html[Queues]
+
+* link:creating_queues.html[Adding Queue]
+
+link:marketing_phones.html[Marketing Phones]
+
+* link:adding_new_routes.html[Adding New Marketing Phone]
+* link:modify_routes.html[Updating Existing Marketing Phone]
+
+link:instances.html[Instances]
+
+* link:adding_instances.html[Adding Instances]
+* link:updating_instances.html[Updating Instances]
+
+link:users_digium.html[Users]
+
+* link:viewing_editing_user.html[Viewing and Editing Users]
+
+link:groups.html[Groups]
+
+link:templates.html[Templates]
+
+link:email_templates.html[Email Templates]
+
+* link:adding_templates_email.html[Adding Templates]
+
+link:signatures.html[Email Signatures]
+
+* link:adding_signature.html[Adding Signature]
+
+link:note_templates.html[Note Templates]
+
+* link:adding_note_template.html[Adding Note Template]
+
+link:sms_templates.html[SMS Templates]
+
+* link:adding_templates.html[Adding Templates]
+
+link:configuration_creditors.html[Creditors]
+
+link:creditor_list.html[Creditor List]
+
+* link:adding_new_creditor.html[Adding/Modifying Creditors]
+* link:exporting_creditors_csv.html[Exporting to CSV]
+
+link:creditor_groups.html[Creditor Groups]
+
+link:creating_groups.html[Creating and Modifying Groups]
+
+* link:general_settings.html[General Settings]
+* link:cd_call_center.html[Call Center]
+* link:cd_fax_settings_poa_atc.html[Fax Settings for POA/ATC]
+* link:cax_cover_sheets_settings.html[Fax Cover Sheets Settings]
+* link:poa_atc_document_settings.html[POA/ATC Document Settings]
+* link:fax_revocation.html[Fax - Revocation]
+* link:auto_email_settings.html[Auto-Email Send Settings]
+* link:emailing_poa_atc.html[Email Settings for POA/ATC]
+* link:fax_settings_sif.html[Fax Settings for SIF Letters]
+
+link:editing_creditor_groups.html[Editing Default Settings]
+
+link:remapping.html[Remapping]
+
+link:searching_creditor_groups.html[Searching Creditor Groups]
+
+link:configuration_states.html[States]
+
+link:debt_settlement.html[Debt Settlement]
+
+link:line_of_credit.html[Line of Credit]
+
+* link:state_rates.html[State Rates]
+
+link:e_docs_popups.html[E-Docs Pop-ups]
+
+* link:adding_text.html[Adding Text]
+
+link:marketing.html[Marketing]
+
+link:app_leads.html[Appendix 1: Leads]
+
+* link:lead_statuses.html[Lead Statuses]
+* link:excluded_creditor_debt_types.html[Excluded Creditor Debt Types]
+
+link:app_deals.html[Appendix 2: Deals]
+
+link:deal_client_status.html[Deal Statuses]
+
+* link:status.html[Status]
+* link:file.html[File]
+* link:payment.html[Payment]
+
+link:creditor_statuses.html[Creditor Statuses]
+
+* link:virtual_statuses.html[Virtual Statuses]
+
+link:disposition_statuses.html[Disposition Statuses]
+
+link:underwriting_statuses.html[Underwriting Statuses]
+
+link:sum_admin_dispositions.html[Sum. Admin Disposition Statuses]
+
+link:payment_coloring_scheme.html[Payment Coloring Scheme]
+
+link:payment_types.html[Payment Types]
+
+link:app_loans.html[Appendix 3: Loans]
+
+* link:loan_statuses.html[Loan Statuses]
+
+link:app_common.html[Appendix 4: Common]
+
+* link:debt_types.html[Debt Types]
+* link:payment_status.html[Payment Status]
+* link:header_coloring_scheme.html[Header Coloring Scheme]
+* link:sources.html[Sources]
+* link:badges.html[Badges]
+* link:document_statuses.html[Document Statuses]
+* link:document_actions.html[Document Actions]
+
+link:app_documents.html[Appendix 5: Documents]
+
+* link:pcfa.html[Personal Cash Flow Assessment]
+
+image:C:\srs\userguide\Baggage\logo-white.png[Americor Large Logo]
+
+link:/docs/[User Guide for Americor CRM]

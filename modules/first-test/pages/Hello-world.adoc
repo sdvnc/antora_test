@@ -1,0 +1,59 @@
+// пример страницы с разным наполнением
+
+// Задаём переменные, которые можно использовать в тексте
+:author: Egor
+:name: value \
+more value
+
+:imagesdir: modules/first test/images
+
+// Сам текст документа
+= Document Title
+:reproducible:
+
+This is a basic AsciiDoc document by {author}.
+
+This document contains two paragraphs.
+It also has a header that specifies the document title.
+
+Example of many values: {name}.
+
+// Использование атрибутов из yaml-файла
+
+Привет, меня зовут {nm} и я {dty}.
+
+// пример ссылки на соседнюю страницу
+
+xref:convert from.adoc[]
+
+// Пример таблицы из телеги с разными столбцами
+[cols="e,m,^,>s",width="25%"]
+|===
+|1 >s|2 |3 |4
+^|5 2.2+^.^|6 .3+<.>m|7
+^|8
+|9 2+>|10
+|===
+
+// Примеры списков
+.Наклонный заголовок к нумерованному списку:
+
+. нумерованный список
+. второй пункт
+. третий пункт
+
+* ненумерованный список
+* ненумерованный список
+* ненумерованный список
+- вложенный ненумерованный список
+- второй пункт
+- третий пункт
+
+// Картинка из соседней папки (чет не работает)
+[#img-cat]
+.Подпись под картинкой
+image::cat.png[кошак - алт текст для картинки, format=png]
+
+// Картинка по ссылке
+
+image::https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Tux,250,350]
